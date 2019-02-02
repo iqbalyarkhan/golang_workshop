@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+//WelcomeMessage to hold message for welcome page
 type WelcomeMessage struct {
 	Message string `json:"message"`
 }
